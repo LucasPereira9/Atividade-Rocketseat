@@ -5,17 +5,23 @@
 }
 body {
     background-color: rgb(83, 79, 79);
+    font-family: 'Open Sans', sans-serif;
 }
 header {
     padding: 32px;
     border-bottom: 1px solid #333;
 }
+header div {
+    text-align: center;
+}
 header div a {
     text-decoration: none;
     text-align: center;
     padding: 0px 16px;
+    font-size: 28px;
+    color: white;
 }
 header div a:hover {
     color: green;
-    transition: 700ms;
+    transition: 300ms;
 }
