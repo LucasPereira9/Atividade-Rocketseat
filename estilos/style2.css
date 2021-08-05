@@ -13,17 +13,20 @@ header {
     padding: 32px;
     border-bottom: 1px solid #333;
 }
-header div {
+.links {
     text-align: center;
 }
-header div a {
+.links a {
     text-decoration: none;
+    line-height: 28px;
+    margin: 0px 16px;
     text-align: center;
     padding: 0px 16px;
     font-size: 28px;
     color: white;
+    padding-bottom: 3px;
 }
-header div a:hover {
+.links a:hover {
     color:red;
     transition: 300ms;
 }
@@ -53,6 +56,7 @@ header div a:hover {
     font-size: 32px;
     line-height: 34px;
     font-family: 'Raleway', sans-serif;
+    padding-bottom: 80px;
 }
 #container p a {
     color: red;
@@ -60,4 +64,8 @@ header div a:hover {
 #container p a:hover {
     color: rgb(49, 4, 4);
     transition: 200ms;
+}
+#sociais a {
+    border-bottom: 2px solid red;
+    width: 50px;
 }
