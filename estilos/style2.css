@@ -16,16 +16,17 @@ header {
 }
 .links {
     text-align: center;
+    padding-bottom: 10px;
 }
 .links a {
     text-decoration: none;
     line-height: 28px;
     margin: 0px 16px;
     text-align: center;
-    padding: 0px 16px;
+    padding: 0px 2px;
     font-size: 28px;
     color: white;
-    padding-bottom: 3px;
+    padding-bottom: 22px;
 }
 .links a:hover {
     color:red;
@@ -44,7 +45,7 @@ header {
 }
 #container h1 {
     font-size: 40px;
-    padding-bottom: 2px;
+    padding: 15px 0px 20px;
 }
 #container h2 {
     font-size: 30px;
@@ -68,4 +69,38 @@ header {
 #sociais a {
     border-bottom: 2px solid red;
     width: 50px;
+}
+
+
+
+/* ===== CLASSES ==== */
+
+.cards {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.card {
+    background-color: red;
+}
+.card-imagem img {
+    width: 100%;
+}
+.conteudo-card, 
+.info-card {
+    padding: 17px;
+}
+.info-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.card-price {
+    background-color: red;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 4px 3px 3px 3px rgb(34, 33, 33);
+    padding: 4px 10px;
+    filter: brightness(77%);
 }
