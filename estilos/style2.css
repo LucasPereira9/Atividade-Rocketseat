@@ -84,9 +84,11 @@ header {
 }
 .card {
     background-color: red;
+    border-radius: 30px;
 }
 .card-imagem img {
     width: 100%;
+    border-radius: 20px;
 }
 .conteudo-card, 
 .info-card {
@@ -103,4 +105,8 @@ header {
     box-shadow: 4px 3px 3px 3px rgb(34, 33, 33);
     padding: 4px 10px;
     filter: brightness(77%);
+}
+.conteudo-card p {
+    text-align: center;
+    font-size: 23px;
 }
