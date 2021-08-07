@@ -87,11 +87,15 @@ header {
 }
 .card {
     background-color: red;
-    border-radius: 30px;
+    border-radius: 400px 400px 20px 20px;
 }
 .card-imagem img {
     width: 100%;
     border-radius: 20px;
+    cursor: pointer;
+}
+.card-imagem img:hover {
+    padding:7px;
 }
 .conteudo-card, 
 .info-card {
