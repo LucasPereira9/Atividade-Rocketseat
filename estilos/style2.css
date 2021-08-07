@@ -73,7 +73,10 @@ header {
 
 
 
-/* ===== CLASSES ==== */
+
+/* ===== CARDS ==== */
+
+
 
 .cards {
     max-width: 800px;
@@ -84,9 +87,11 @@ header {
 }
 .card {
     background-color: red;
+    border-radius: 30px;
 }
 .card-imagem img {
     width: 100%;
+    border-radius: 20px;
 }
 .conteudo-card, 
 .info-card {
@@ -103,4 +108,47 @@ header {
     box-shadow: 4px 3px 3px 3px rgb(34, 33, 33);
     padding: 4px 10px;
     filter: brightness(77%);
+}
+.conteudo-card p {
+    text-align: center;
+    font-size: 23px;
+}
+
+
+/* ===== modal === */
+
+
+
+.modal-back {
+    background-color: rgb(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 6vh auto;
+    position: relative;
+}
+.close-modal {
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+
+/* === MODAL ACTIVED === */
+
+
+.modal-back.ativo {
+    opacity: 1;
+    visibility: visible;
 }
